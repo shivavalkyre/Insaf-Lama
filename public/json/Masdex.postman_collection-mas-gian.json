@@ -1,0 +1,1661 @@
+{
+	"info": {
+		"_postman_id": "f65c6aa8-e294-420e-a691-9713780827e8",
+		"name": "Masdex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Securite",
+			"item": [
+				{
+					"name": "Add Securite",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "DMIVTS/SECURITE/21/06/0003/TESTING2",
+									"type": "text"
+								},
+								{
+									"key": "tgl_jurnal",
+									"value": "2021-06-04 08:44:21",
+									"type": "text"
+								},
+								{
+									"key": "jenis_securite",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "waktu_kejadian",
+									"value": "2021-06-04 08:44:21",
+									"type": "text"
+								},
+								{
+									"key": "sumber_info",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "ket_lainnya",
+									"value": "testing (insert)",
+									"type": "text"
+								},
+								{
+									"key": "nama_pelapor",
+									"value": "gian nugraha update",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tgl_pelapor",
+									"value": "2021-06-04 08:44:21",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "info_tambahan_p",
+									"value": "testing pelapor update",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "mmsi",
+									"value": "tgprk1",
+									"type": "text"
+								},
+								{
+									"key": "status_nav",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "info_tambahan",
+									"value": "testing info tambahan ",
+									"type": "text"
+								},
+								{
+									"key": "degree1",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "minute1",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "second1",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "direction1",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "degree2",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "minute2",
+									"value": "13",
+									"type": "text"
+								},
+								{
+									"key": "second2",
+									"value": "14",
+									"type": "text"
+								},
+								{
+									"key": "direction2",
+									"value": "W",
+									"type": "text"
+								},
+								{
+									"key": "lokasi_terlapor",
+									"value": "pulau seribu testing",
+									"type": "text"
+								},
+								{
+									"key": "degree3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "minute3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "second3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "direction3",
+									"value": "S",
+									"type": "text"
+								},
+								{
+									"key": "degree4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "minute4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "second4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "direction4",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_asal",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_tujuan",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "desc_securite",
+									"value": "Testing Data Securite",
+									"type": "text"
+								},
+								{
+									"key": "memerlukan_tindakan",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "mob",
+									"value": "Nugraha Gian",
+									"type": "text"
+								},
+								{
+									"key": "nohp1",
+									"value": "08124",
+									"type": "text"
+								},
+								{
+									"key": "secc_officer",
+									"value": "Gian Nugraha2",
+									"type": "text"
+								},
+								{
+									"key": "nohp2",
+									"value": "0878",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Securite",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/read/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"read",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Securite By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/read/18",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"read",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Securite",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/delete/13",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"delete",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Securite",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "DMIVTS/SECURITE/21/06/0002",
+									"type": "text"
+								},
+								{
+									"key": "tgl_jurnal",
+									"value": "2021-06-02 08:44:21",
+									"type": "text"
+								},
+								{
+									"key": "jenis_securite",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "waktu_kejadian",
+									"value": "2021-06-02 08:44:21",
+									"type": "text"
+								},
+								{
+									"key": "sumber_info",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "ket_lainnya",
+									"value": "testing (update)",
+									"type": "text"
+								},
+								{
+									"key": "nama_pelapor",
+									"value": "gian nugraha update",
+									"type": "text"
+								},
+								{
+									"key": "tgl_pelapor",
+									"value": "2021-06-02 08:44:21",
+									"type": "text"
+								},
+								{
+									"key": "info_tambahan_p",
+									"value": "testing pelapor update",
+									"type": "text"
+								},
+								{
+									"key": "mmsi",
+									"value": "tgprk002",
+									"type": "text"
+								},
+								{
+									"key": "status_nav",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "info_tambahan",
+									"value": "testing info tambahan ",
+									"type": "text"
+								},
+								{
+									"key": "degree1",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "minute1",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "second1",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "direction1",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "degree2",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "minute2",
+									"value": "13",
+									"type": "text"
+								},
+								{
+									"key": "second2",
+									"value": "14",
+									"type": "text"
+								},
+								{
+									"key": "direction2",
+									"value": "W",
+									"type": "text"
+								},
+								{
+									"key": "lokasi_terlapor",
+									"value": "pulau seribu testing",
+									"type": "text"
+								},
+								{
+									"key": "degree3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "minute3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "second3",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "direction3",
+									"value": "S",
+									"type": "text"
+								},
+								{
+									"key": "degree4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "minute4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "second4",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "direction4",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_asal",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_tujuan",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "desc_securite",
+									"value": "Testing Data Securite",
+									"type": "text"
+								},
+								{
+									"key": "memerlukan_tindakan",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "mob",
+									"value": "Nugraha Gian",
+									"type": "text"
+								},
+								{
+									"key": "nohp1",
+									"value": "0812",
+									"type": "text"
+								},
+								{
+									"key": "secc_officer",
+									"value": "Gian Nugraha",
+									"type": "text"
+								},
+								{
+									"key": "nohp2",
+									"value": "0878",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/update/14",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"update",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Securite By Range",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "range1",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "range2",
+									"value": "2021-06-09",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securite/insaf/read/range",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securite",
+								"insaf",
+								"read",
+								"range"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Securite Detail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/securitedetail/insaf/create?securite_id=6&nama_pelapor=Gian Nugraha&tanggal_lapor=2021-06-18 16:11:21&info_tambahan=testing pelapor create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"securitedetail",
+								"insaf",
+								"create"
+							],
+							"query": [
+								{
+									"key": "securite_id",
+									"value": "6"
+								},
+								{
+									"key": "nama_pelapor",
+									"value": "Gian Nugraha"
+								},
+								{
+									"key": "tanggal_lapor",
+									"value": "2021-06-18 16:11:21"
+								},
+								{
+									"key": "info_tambahan",
+									"value": "testing pelapor create"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "user1",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "user1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/users/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Noon Position",
+			"item": [
+				{
+					"name": "Add Noon Position",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "DMIVTS/NOONPOSITION/21/06?TESTING",
+									"type": "text"
+								},
+								{
+									"key": "tgl_jurnal",
+									"value": "2021-06-08 14:44:21",
+									"type": "text"
+								},
+								{
+									"key": "mmsi",
+									"value": "tgprk1",
+									"type": "text"
+								},
+								{
+									"key": "status_nav",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "degree1",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "minute1",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "second1",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "direction1",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "degree2",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "minute2",
+									"value": "13",
+									"type": "text"
+								},
+								{
+									"key": "second2",
+									"value": "14",
+									"type": "text"
+								},
+								{
+									"key": "direction2",
+									"value": "W",
+									"type": "text"
+								},
+								{
+									"key": "haluan",
+									"value": "170",
+									"type": "text"
+								},
+								{
+									"key": "kecepatan",
+									"value": "sedang",
+									"type": "text"
+								},
+								{
+									"key": "nama_lokasi_kejadian",
+									"value": "Dumai",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_asal",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_tujuan",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_awak",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_penumpang",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "jenis_muatan",
+									"value": "pariwisata",
+									"type": "text"
+								},
+								{
+									"key": "kondisi_awak_kapal",
+									"value": "Baik",
+									"type": "text"
+								},
+								{
+									"key": "kondisi_kapal",
+									"value": "Baik",
+									"type": "text"
+								},
+								{
+									"key": "posisi_bbm",
+									"value": "cukup",
+									"type": "text"
+								},
+								{
+									"key": "kecepatan_angin",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "arus",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "kelembaban",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "curah_hujan",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "arah_angin",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "tinggi_gelombang",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "jarak_penglihatan",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "pasang_surut",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "tekanan_udara",
+									"value": "Sedang",
+									"type": "text"
+								},
+								{
+									"key": "remark",
+									"value": "remarks test2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Noon Position",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/read",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"read"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Noon Position By Range Waktu",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "range1",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "range2",
+									"value": "2021-06-09",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/read/range",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"read",
+								"range"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Noon Position",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "DMIVTS/NOONPOSITION/21/06/0005 (Update)",
+									"type": "text"
+								},
+								{
+									"key": "tgl_jurnal",
+									"value": "2021-06-07 14:44:21",
+									"type": "text"
+								},
+								{
+									"key": "mmsi",
+									"value": "tgprk1",
+									"type": "text"
+								},
+								{
+									"key": "status_nav",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "degree1",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "minute1",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "second1",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "direction1",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "degree2",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "minute2",
+									"value": "13",
+									"type": "text"
+								},
+								{
+									"key": "second2",
+									"value": "14",
+									"type": "text"
+								},
+								{
+									"key": "direction2",
+									"value": "W",
+									"type": "text"
+								},
+								{
+									"key": "haluan",
+									"value": "170",
+									"type": "text"
+								},
+								{
+									"key": "kecepatan",
+									"value": "sedang",
+									"type": "text"
+								},
+								{
+									"key": "nama_lokasi_kejadian",
+									"value": "Dumai",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_asal",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "pelabuhan_tujuan",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_awak",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_penumpang",
+									"value": "200",
+									"type": "text"
+								},
+								{
+									"key": "jenis_muatan",
+									"value": "pariwisata",
+									"type": "text"
+								},
+								{
+									"key": "kondisi_awak_kapal",
+									"value": "Baik",
+									"type": "text"
+								},
+								{
+									"key": "kondisi_kapal",
+									"value": "Baik",
+									"type": "text"
+								},
+								{
+									"key": "posisi_bbm",
+									"value": "cukup",
+									"type": "text"
+								},
+								{
+									"key": "kecepatan_angin",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "arus",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "kelembaban",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "curah_hujan",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "arah_angin",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "tinggi_gelombang",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "jarak_penglihatan",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "pasang_surut",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "tekanan_udara",
+									"value": "Sedang",
+									"type": "text"
+								},
+								{
+									"key": "remark",
+									"value": "remarks test Update",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/update/8",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"update",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Noon Position",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/delete/7",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"delete",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Noon Position By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/noonposition/insaf/read/8",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"noonposition",
+								"insaf",
+								"read",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MSI",
+			"item": [
+				{
+					"name": "Add MSI",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "TJPIVTS/NP/21/05/0001",
+									"type": "text"
+								},
+								{
+									"key": "valid_from",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "valid_to",
+									"value": "2021-06-10",
+									"type": "text"
+								},
+								{
+									"key": "information",
+									"value": "Testing Add MSI",
+									"type": "text"
+								},
+								{
+									"key": "sumber_data",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "wind_from",
+									"value": "West",
+									"type": "text"
+								},
+								{
+									"key": "wind_to",
+									"value": "East",
+									"type": "text"
+								},
+								{
+									"key": "humidity_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "humidity_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "air_pressure",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "low_tide",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "high_tide",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "low_tide_time",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "high_tide_time",
+									"value": "2021-06-05",
+									"type": "text"
+								},
+								{
+									"key": "weather",
+									"value": "cloud",
+									"type": "text"
+								},
+								{
+									"key": "additional_info",
+									"value": "Cuaca Tidak Menentu",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msi/insaf/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msi",
+								"insaf",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add MSI Detail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "msi_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "mmsi",
+									"value": "tgprk1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msi/insaf/createDetail",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msi",
+								"insaf",
+								"createDetail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All MSI",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msi/insaf/read",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msi",
+								"insaf",
+								"read"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get MSI By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msi/insaf/read/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msi",
+								"insaf",
+								"read",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update MSI",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "no_jurnal",
+									"value": "TJPIVTS/NP/21/05/0001",
+									"type": "text"
+								},
+								{
+									"key": "valid_from",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "valid_to",
+									"value": "2021-06-10",
+									"type": "text"
+								},
+								{
+									"key": "information",
+									"value": "Testing Add MSI Update",
+									"type": "text"
+								},
+								{
+									"key": "sumber_data",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "wind_from",
+									"value": "West",
+									"type": "text"
+								},
+								{
+									"key": "wind_to",
+									"value": "East",
+									"type": "text"
+								},
+								{
+									"key": "humidity_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "humidity_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "air_pressure",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature_min",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "temperature_max",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "low_tide",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "high_tide",
+									"value": "70",
+									"type": "text"
+								},
+								{
+									"key": "low_tide_time",
+									"value": "2021-06-04",
+									"type": "text"
+								},
+								{
+									"key": "high_tide_time",
+									"value": "2021-06-05",
+									"type": "text"
+								},
+								{
+									"key": "weather",
+									"value": "cloud",
+									"type": "text"
+								},
+								{
+									"key": "additional_info",
+									"value": "Cuaca Tidak Menentu ",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msi/insaf/update/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msi",
+								"insaf",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete MSI",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/msidetail/insaf/delete/2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"msidetail",
+								"insaf",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update MSI Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "Get MSI By Range",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ship Arrival",
+			"item": [
+				{
+					"name": "get By Range",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "Get Shp Arrival",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/ship_arrival/insaf/read",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"ship_arrival",
+								"insaf",
+								"read"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PAN",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

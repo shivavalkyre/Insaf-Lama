@@ -1,0 +1,113 @@
+.wrapper {
+    background-color: $color-1;
+    .hero-login {
+        background-position: 100% 70%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .forms {
+        background-color: $color-1;
+        .card-auth {
+            .header {
+                img {
+                    // max-width: 15%;
+                }
+            }
+        
+            .body {
+                .form-group {
+                    .input-group {
+                        input[type=text],
+                        input[type=password]  {
+                            &.form-control {
+                                &::placeholder {
+                                    font-weight: bold;
+                                    color: $color-6;
+                                }
+                            }
+                            &.error-state {
+                                @apply border-red-600 bg-red-300;
+                            }
+                            &.success-state {
+                                @apply border-green-600 bg-green-300;
+                            }
+                            &.active {
+                                @apply border-gray-400 bg-white;
+                            }
+                        }
+                    }
+        
+                    .form-custom-checkbox {
+        
+                        .checkbox {
+                            display: grid;
+                            grid-template-columns: min-content auto;
+                            grid-gap: 0.5em;
+                            font-size: 1.5rem;
+                            color: var(--color);
+                            .radio__label {
+                                @apply font-bold text-xs lg:text-sm;
+                            }
+                            &--disabled {
+                                color: var(--disabled);
+                            }
+                        }
+        
+                        .checkbox__control {
+                            display: inline-grid;
+                            width: 1em;
+                            height: 1em;
+                            border-radius: 0.25em;
+                            border: 0.1em solid currentColor;
+        
+                            svg {
+                                transition: transform 0.1s ease-in 25ms;
+                                transform: scale(0);
+                                transform-origin: bottom left;
+                            }
+                        }
+        
+                        .checkbox__input {
+                            display: grid;
+                            grid-template-areas: "checkbox";
+        
+                            >* {
+                                grid-area: checkbox;
+                            }
+        
+                            input {
+                                opacity: 0;
+                                width: 1em;
+                                height: 1em;
+        
+                                &:focus+.checkbox__control {
+                                    
+                                }
+        
+                                &:checked+.checkbox__control svg {
+                                    transform: scale(1);
+                                }
+        
+                                &:disabled+.checkbox__control {
+                                    color: var(--disabled);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .modal {
+                transition: opacity 0.25s ease;
+                .modal-container {
+                    background-color: $color-1;
+                }
+            }
+            body.modal-active {
+                overflow-x: hidden;
+                overflow-y: visible !important;
+            }
+        }
+    }
+}

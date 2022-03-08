@@ -1,0 +1,149 @@
+// input group button for table
+.input-group-button {
+    @apply relative flex items-center justify-center p-0;
+    border-radius: 10px;
+    .form-search-table {
+        border: 2px solid $color-1;
+        border-radius: 10px;
+        @apply focus:outline-none py-2 px-4 w-96;
+    }
+    .btn-search-table {
+        @apply absolute inset-y-0 right-0 focus:outline-none hover:bg-yellow-300 p-3 flex justify-center items-center;
+        border-radius: 0 10px 10px 0;
+        background-color: $color-1;
+        svg {
+            width: 70%;
+        }
+    }
+}
+
+.input-search {
+    border: 2px solid $color-1;
+    border-radius: 10px;
+    @apply focus:outline-none py-2 px-4 w-60;
+}
+
+.form-group-1 {
+    @apply w-full;
+    .input-group-1 {
+        input[type=text],
+        input[type=number],
+        input[type=password],
+        input[type=email],
+        input[type=date],
+        input[type=file],
+        input[type=datetime-local],
+        textarea,
+        select {
+            &.form-control {
+                @apply  w-full py-3 px-3 font-medium rounded-lg outline-none border-2;
+                &::placeholder {
+                    font-weight: medium;
+                    color: #2c2c2c;
+                }
+            }
+            &.error-state {
+                @apply border-red-600 bg-red-300;
+            }
+            &.success-state {
+                @apply border-green-600 bg-green-300;
+            }
+            &.active {
+                @apply border-yellow-300 bg-white focus:shadow;
+            }
+            &.readonly {
+                @apply border-gray-400 bg-gray-400 text-white font-bold;
+            }
+        }
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;       /* Remove default arrow */
+        }
+
+        .input-append {
+            @apply absolute flex items-center justify-center w-auto h-auto bg-yellow-400 inset-y-0 right-0 rounded-br-lg rounded-tr-lg py-2 px-4;
+            svg {
+                width: 70%;
+            }
+        }
+    }
+}
+
+.form-group-2 {
+    @apply w-full;
+    .input-group-2 {
+        input[type=text],
+        input[type=number],
+        input[type=password],
+        input[type=email],
+        input[type=file],
+        input[type=datetime-local],
+        textarea,
+        select {
+            &.form-control {
+                @apply  w-full py-2 px-3 font-medium rounded-lg outline-none border-2;
+                &::placeholder {
+                    font-weight: medium;
+                    color: #2c2c2c;
+                }
+            }
+            &.error-state {
+                @apply border-red-600 bg-red-300;
+            }
+            &.success-state {
+                @apply border-green-600 bg-green-300;
+            }
+            &.active {
+                @apply border-yellow-300 bg-white focus:shadow;
+            }
+            &.readonly {
+                @apply border-gray-400 bg-gray-400 text-white font-bold;
+            }
+        }
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;       /* Remove default arrow */
+        }
+
+        .input-append {
+            @apply absolute flex items-center justify-center w-auto h-auto bg-yellow-400 inset-y-0 right-0 rounded-br-lg rounded-tr-lg py-2 px-4;
+            svg {
+                width: 70%;
+            }
+        }
+    }
+}
+
+
+input:checked + svg {
+    display: block;
+}
+
+input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid $color-1;
+    background-color: #fff;
+    border-radius: 50%;
+    &:hover {
+        cursor: pointer;
+    }
+  }
+  
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+background-color: $color-1;
+}
+  
+

@@ -1,0 +1,2819 @@
+{
+	"info": {
+		"_postman_id": "1c6b0458-22d0-4f35-a2a3-a051bca96f47",
+		"name": "Masdex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insaf",
+			"item": [
+				{
+					"name": "PAN",
+					"item": [
+						{
+							"name": "PAN",
+							"item": [
+								{
+									"name": "Show PAN data based on Range",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "rows",
+													"value": "3",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/show/2021-02-17/2021-02-19",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"show",
+												"2021-02-17",
+												"2021-02-19"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update PAN data by id",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "no_jurnal",
+													"value": "010",
+													"type": "text"
+												},
+												{
+													"key": "jenis_pan",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "waktu_kejadian",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "sumber_informasi",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "keterangan_lainnya",
+													"value": "ini hanyalah test testing",
+													"type": "text"
+												},
+												{
+													"key": "deskripsi_laporan",
+													"value": "ini hanyalah test testing",
+													"type": "text"
+												},
+												{
+													"key": "degree1",
+													"value": "10",
+													"type": "text"
+												},
+												{
+													"key": "minute1",
+													"value": "11",
+													"type": "text"
+												},
+												{
+													"key": "second1",
+													"value": "12",
+													"type": "text"
+												},
+												{
+													"key": "direction1",
+													"value": "E",
+													"type": "text"
+												},
+												{
+													"key": "degree2",
+													"value": "13",
+													"type": "text"
+												},
+												{
+													"key": "minute2",
+													"value": "14",
+													"type": "text"
+												},
+												{
+													"key": "second2",
+													"value": "15",
+													"type": "text"
+												},
+												{
+													"key": "direction2",
+													"value": "S",
+													"type": "text"
+												},
+												{
+													"key": "master_onboard",
+													"value": "si kapten oleng",
+													"type": "text"
+												},
+												{
+													"key": "phone_onboard",
+													"value": "08123456789",
+													"type": "text"
+												},
+												{
+													"key": "second_officer",
+													"value": "wakil nahkoda",
+													"type": "text"
+												},
+												{
+													"key": "phone_second_officer",
+													"value": "08123456789",
+													"type": "text"
+												},
+												{
+													"key": "deskripsi_pan",
+													"value": "ini hanyalah test testing",
+													"type": "text"
+												},
+												{
+													"key": "tanggal",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "memerlukan_tindakan",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "updated_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "updated_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/update/36",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"update",
+												"36"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show PAN data by id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/show/33",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"show",
+												"33"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show all data",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "rows",
+													"value": "3",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Store Data into tbl_insaf_pan",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "no_jurnal",
+													"value": "010",
+													"type": "text"
+												},
+												{
+													"key": "jenis_pan",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "waktu_kejadian",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "sumber_informasi",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "keterangan_lainnya",
+													"value": "ini hanyalah test",
+													"type": "text"
+												},
+												{
+													"key": "deskripsi_laporan",
+													"value": "ini hanyalah test",
+													"type": "text"
+												},
+												{
+													"key": "degree1",
+													"value": "10",
+													"type": "text"
+												},
+												{
+													"key": "minute1",
+													"value": "11",
+													"type": "text"
+												},
+												{
+													"key": "second1",
+													"value": "12",
+													"type": "text"
+												},
+												{
+													"key": "direction1",
+													"value": "E",
+													"type": "text"
+												},
+												{
+													"key": "degree2",
+													"value": "13",
+													"type": "text"
+												},
+												{
+													"key": "minute2",
+													"value": "14",
+													"type": "text"
+												},
+												{
+													"key": "second2",
+													"value": "15",
+													"type": "text"
+												},
+												{
+													"key": "direction2",
+													"value": "S",
+													"type": "text"
+												},
+												{
+													"key": "master_onboard",
+													"value": "si kapten",
+													"type": "text"
+												},
+												{
+													"key": "phone_onboard",
+													"value": "08123456789",
+													"type": "text"
+												},
+												{
+													"key": "second_officer",
+													"value": "wakil nahkoda",
+													"type": "text"
+												},
+												{
+													"key": "phone_second_officer",
+													"value": "08123456789",
+													"type": "text"
+												},
+												{
+													"key": "deskripsi_pan",
+													"value": "ini hanyalah test",
+													"type": "text"
+												},
+												{
+													"key": "tanggal",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "memerlukan_tindakan",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "created_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "created_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/store",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"store"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete PAN data by id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "deleted_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "deleted_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/destroy/36",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"destroy",
+												"36"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update PAN data by id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": null
+									},
+									"response": []
+								},
+								{
+									"name": "Search data in PAN",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "rows",
+													"value": "3",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/search/008",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"search",
+												"008"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Get latest PAN data based on id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/latest",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"latest"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "PAN Detail",
+							"item": [
+								{
+									"name": "Show all pan detail data based on pan_id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/kapal/33",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"kapal",
+												"33"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Store pan detail data based on pan_id",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "mmsi",
+													"value": "tgprk1",
+													"type": "text"
+												},
+												{
+													"key": "created_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "created_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/kapal/store/33",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"kapal",
+												"store",
+												"33"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update pan detail data based on pan_id",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "mmsi",
+													"value": "tgprk2",
+													"type": "text"
+												},
+												{
+													"key": "updated_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "updated_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/kapal/update/33/4",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"kapal",
+												"update",
+												"33",
+												"4"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete pan detail data based on pan_id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "deleted_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "deleted_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/kapal/destroy/33/4",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"kapal",
+												"destroy",
+												"33",
+												"4"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show pan detail data based on pan_id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/pan/kapal/show/33/4",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"pan",
+												"kapal",
+												"show",
+												"33",
+												"4"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "get sumber informasi awal",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/pan/sumberinformasiawal",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"pan",
+										"sumberinformasiawal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get jenis pan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/pan/jenispan",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"pan",
+										"jenispan"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get PAN latest data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/pan/latest",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"pan",
+										"latest"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Notice to Mariner",
+					"item": [
+						{
+							"name": "Notice to Mariner",
+							"item": [
+								{
+									"name": "Delete Notice to Mariner data by id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "deleted_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "deleted_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/destroy/3",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"destroy",
+												"3"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Store Data into tbl_insaf_notice_to_mariner",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "no_jurnal",
+													"value": "005",
+													"type": "text"
+												},
+												{
+													"key": "tanggal",
+													"value": "2021-02-20 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "keterangan",
+													"value": "ini hanyalah test",
+													"type": "text"
+												},
+												{
+													"key": "dokumen",
+													"value": "testing.pdf",
+													"type": "text"
+												},
+												{
+													"key": "title",
+													"value": "testing",
+													"type": "text"
+												},
+												{
+													"key": "created_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "created_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/store",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"store"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show all data",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "rows",
+													"value": "3",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show Notice to Mariner data by id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/show/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"show",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update Notice to Mariner data by id",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "no_jurnal",
+													"value": "010",
+													"type": "text"
+												},
+												{
+													"key": "tanggal",
+													"value": "2021-02-20 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "keterangan",
+													"value": "ini hanyalah testing",
+													"type": "text"
+												},
+												{
+													"key": "dokumen",
+													"value": "datadata.pdf",
+													"type": "text"
+												},
+												{
+													"key": "title",
+													"value": "testing edit",
+													"type": "text"
+												},
+												{
+													"key": "updated_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "updated_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/update/3",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"update",
+												"3"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show Notice to Mariner data based on Range",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "rows",
+													"value": "3",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/show/2021-02-18/2021-02-28",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"show",
+												"2021-02-18",
+												"2021-02-28"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Search data in Notice to Mariner",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/search/testing edit",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"search",
+												"testing edit"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Upload file name in database",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "dokumen",
+													"value": "testing123.pdf",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/update/file/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"update",
+												"file",
+												"1"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Notice to Mariner Detail",
+							"item": [
+								{
+									"name": "Show all data based on ntm_id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/kapal/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"kapal",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Store Notice to Mariner Detail data based on pan_id",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "mmsi",
+													"value": "tgprk1",
+													"type": "text"
+												},
+												{
+													"key": "created_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "created_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/kapal/store/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"kapal",
+												"store",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update Notice to Mariner Detail data based on ntm_id",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "mmsi",
+													"value": "tgprk2",
+													"type": "text"
+												},
+												{
+													"key": "updated_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "updated_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/kapal/update/1/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"kapal",
+												"update",
+												"1",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete Notice to Mariner Detail data based on ntm_id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "deleted_at",
+													"value": "2021-02-18 21:28:41",
+													"type": "text"
+												},
+												{
+													"key": "deleted_by",
+													"value": "87",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/kapal/destroy/1/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"kapal",
+												"destroy",
+												"1",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Show Notice to Mariner Detail based on Notice to Marine id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "127.0.0.1:3000/api/ntm/kapal/show/1/1",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "3000",
+											"path": [
+												"api",
+												"ntm",
+												"kapal",
+												"show",
+												"1",
+												"1"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "get NTM latest data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ntm/latest",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ntm",
+										"latest"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Contravention",
+					"item": [
+						{
+							"name": "Store Data into tbl_insaf_contravention",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "001",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-19 21:28:41 ",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk2",
+											"type": "text"
+										},
+										{
+											"key": "subject",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "keterangan",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "data_feed_type",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_pelanggaran",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "created_at",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "created_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/store",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"store"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update CONTRAVENTION data by id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "001",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-19 21:28:41 ",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk2",
+											"type": "text"
+										},
+										{
+											"key": "subject",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "keterangan",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "data_feed_type",
+											"value": "0",
+											"description": "default = 0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_pelanggaran",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "updated_at",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "updated_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/update/1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"update",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show CONTRAVENTION data based on Range",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "rows",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/show/2021-02-17/2021-02-20",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"show",
+										"2021-02-17",
+										"2021-02-20"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show CONTRAVENTION data by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/show/1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"show",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show all data",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "rows",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete CONTRAVENTION data by id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "deleted_at",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "deleted_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/destroy/1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"destroy",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search data in CONTRAVENTION table",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "rows",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/search/001",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"search",
+										"001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get latest CONTRAVENTION data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/latest",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"latest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get jenis pelanggaran",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/contravention/jenispelanggaran",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"contravention",
+										"jenispelanggaran"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Ship on Port",
+					"item": [
+						{
+							"name": "Create and update tbl_insaf_ship_activity",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "VTS002",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "keterangan_tambahan",
+											"value": "test ubah",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk1",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_kru",
+											"value": "10",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_penumpang",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_asal",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_tujuan",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "status_bernavigasi",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "muatan",
+											"value": "testing",
+											"type": "text"
+										},
+										{
+											"key": "master_onboard",
+											"value": "faishal",
+											"type": "text"
+										},
+										{
+											"key": "nohp1",
+											"value": "0123456789",
+											"type": "text"
+										},
+										{
+											"key": "second_officer",
+											"value": "tedy",
+											"type": "text"
+										},
+										{
+											"key": "nohp2",
+											"value": "0123456789",
+											"type": "text"
+										},
+										{
+											"key": "degree1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "minute1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "second1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "direction1",
+											"value": "E",
+											"type": "text"
+										},
+										{
+											"key": "degree2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "minute2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "second2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "direction2",
+											"value": "N",
+											"type": "text"
+										},
+										{
+											"key": "alasan_olah_gerak",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "radio_notif",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_komunikasi",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "jenis_jangkar_anchorage_request",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "need_port_area_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tipe_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "total_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "satuan_volume_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "operator_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "nohp_operator_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "dok_rencana_kerja_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "lokasi_kejadian_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_asal_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_tujuan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_kru_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_penumpang_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_muatan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "deskripsi_kejadian_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "need_help_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_bantuan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "mob_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "mob_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_luka_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_luka_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_jiwa_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_jiwa_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "degree1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "minute1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "second1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "direction1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "degree2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "minute2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "second2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "direction2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "rencana_durasi_hour_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "rencana_durasi_minutes_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_request",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "proses_kondisi_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "dok_spog",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "updated_at",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "updated_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_on_port/insaf/update",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_on_port",
+										"insaf",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show all data",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "rows",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_on_port/insaf/",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_on_port",
+										"insaf",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show Ship On Port data By Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_on_port/insaf/show/2",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_on_port",
+										"insaf",
+										"show",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show Ship On Port data By Range",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_on_port/insaf/show/2021-02-18/2021-02-20",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_on_port",
+										"insaf",
+										"show",
+										"2021-02-18",
+										"2021-02-20"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Store Ship On Port Log Data into Database",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "VTS002",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "keterangan_tambahan",
+											"value": "test ubah",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk1",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_kru",
+											"value": "10",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_penumpang",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_asal",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_tujuan",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "status_bernavigasi",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "muatan",
+											"value": "testing",
+											"type": "text"
+										},
+										{
+											"key": "master_onboard",
+											"value": "faishal",
+											"type": "text"
+										},
+										{
+											"key": "nohp1",
+											"value": "0123456789",
+											"type": "text"
+										},
+										{
+											"key": "second_officer",
+											"value": "tedy",
+											"type": "text"
+										},
+										{
+											"key": "nohp2",
+											"value": "0123456789",
+											"type": "text"
+										},
+										{
+											"key": "degree1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "minute1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "second1",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "direction1",
+											"value": "E",
+											"type": "text"
+										},
+										{
+											"key": "degree2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "minute2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "second2",
+											"value": "12",
+											"type": "text"
+										},
+										{
+											"key": "direction2",
+											"value": "N",
+											"type": "text"
+										},
+										{
+											"key": "alasan_olah_gerak",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "radio_notif",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_komunikasi",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "jenis_jangkar_anchorage_request",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "need_port_area_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tipe_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "total_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "satuan_volume_oli_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "operator_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "nohp_operator_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "dok_rencana_kerja_sts_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "lokasi_kejadian_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_asal_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "pelabuhan_tujuan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_kru_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jumlah_penumpang_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_muatan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "deskripsi_kejadian_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "need_help_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "jenis_bantuan_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "mob_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "mob_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_luka_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_luka_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_jiwa_status_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "korban_jiwa_qty_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "degree1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "minute1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "second1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "direction1_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "degree2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "minute2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "second2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "direction2_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "rencana_durasi_hour_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "rencana_durasi_minutes_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_request",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "proses_kondisi_request",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "dok_spog",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "created_at",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "created_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/log_ship_on_port/insaf/store",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"log_ship_on_port",
+										"insaf",
+										"store"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Ship Departure",
+					"item": [
+						{
+							"name": "Create and update tbl_insaf_ship_activity",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "VTS002",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-19 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "keterangan_tambahan",
+											"value": "test ubah departure",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk1",
+											"type": "text"
+										},
+										{
+											"key": "radio_notif",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_komunikasi",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "dok_beacukai",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_imigrasi",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_karantina",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_spb",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "updated_at",
+											"value": "2021-02-19 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "updated_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_departure/insaf/update",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_departure",
+										"insaf",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Store Shop Departure Log Data",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "no_jurnal",
+											"value": "VTS002",
+											"type": "text"
+										},
+										{
+											"key": "tanggal",
+											"value": "2021-02-19 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "keterangan_tambahan",
+											"value": "test ubah departure",
+											"type": "text"
+										},
+										{
+											"key": "mmsi",
+											"value": "tgprk1",
+											"type": "text"
+										},
+										{
+											"key": "radio_notif",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tanggal_komunikasi",
+											"value": "2021-02-18 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "dok_beacukai",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_imigrasi",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_karantina",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "dok_spb",
+											"value": "testing.pdf",
+											"type": "text"
+										},
+										{
+											"key": "created_at",
+											"value": "2021-02-19 21:28:41",
+											"type": "text"
+										},
+										{
+											"key": "created_by",
+											"value": "87",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/log_ship_departure/insaf/store",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"log_ship_departure",
+										"insaf",
+										"store"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show all data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_departure/insaf/",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_departure",
+										"insaf",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show Ship Departure data By Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_departure/insaf/show/2",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_departure",
+										"insaf",
+										"show",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show Ship Departure data By range",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:3000/api/ship_departure/insaf/show/2021-02-18/2021-02-20",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"ship_departure",
+										"insaf",
+										"show",
+										"2021-02-18",
+										"2021-02-20"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "basic",
+					"item": [
+						{
+							"name": "get masdex_kapal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "rows",
+											"value": "10",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "127.0.0.1:3000/api/kapal/masdex/read",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"kapal",
+										"masdex",
+										"read"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

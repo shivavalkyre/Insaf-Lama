@@ -1,0 +1,51 @@
+.btn-table-filter {
+    @apply focus:ring-2 ring-yellow-400 flex items-center p-2 w-11 h-11 hover:bg-yellow-300 focus:outline-none justify-center;
+    background-color: $color-1;
+    border-radius: 10px;
+}
+
+.btn-table-filter-2 {
+    @apply flex items-center py-2 px-4 h-11 focus:outline-none justify-center;
+    border-radius: 10px;
+}
+
+
+.btn-table-add {
+    @apply focus:ring-4 ring-yellow-400 relative flex items-center justify-center p-0 focus:ring-2 ring-yellow-200;
+    border-radius: 10px;
+    background-color: $color-1;
+    .label {
+        border: 2px solid $color-1;
+        border-radius: 10px;
+        @apply focus:outline-none py-1 px-4 w-auto mr-12 text-lg font-medium;
+    }
+    .icon {
+        @apply absolute inset-y-0 right-0 p-3 flex justify-center items-center;
+        border-radius: 0 10px 10px 0;
+        background-color: black;
+        svg {
+            width: 70%;
+        }
+    }
+}
+
+.btn-search-date-range {
+    @apply bg-gray-900 text-white focus:outline-none rounded-lg p-2 focus:bg-gray-700 focus:ring-2 ring-gray-500;
+}
+
+.cta-edit-table {
+    @apply hover:bg-gray-800 w-10 h-10 focus:ring-2 ring-gray-400 flex items-center justify-center p-1 rounded-lg;
+    background-color: black;
+    color: white;
+    img {
+        width: 60%;
+    }
+}
+.cta-delete-table {
+    @apply hover:bg-rose-500 w-10 h-10 focus:ring-2 ring-rose-300 flex items-center justify-center p-1 rounded-lg;
+    background-color: #E8264F;
+    color: white;
+    img {
+        width: 60%;
+    }
+}

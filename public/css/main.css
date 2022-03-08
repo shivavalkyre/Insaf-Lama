@@ -1,0 +1,1089 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+.btn-table-filter:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
+}
+
+.btn-table-filter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem;
+}
+
+.btn-table-filter:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn-table-filter{
+  padding: 0.5rem;
+}
+
+.btn-table-filter:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.btn-table-filter{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(251, 191, 36, var(--tw-ring-opacity));
+  width: 2.75rem;
+  background-color: #FDB815;
+  border-radius: 10px;
+}
+
+.btn-table-filter-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem;
+}
+
+.btn-table-filter-2:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn-table-filter-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+}
+
+.btn-table-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  position: relative;
+}
+
+.btn-table-add:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.btn-table-add{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(253, 230, 138, var(--tw-ring-opacity));
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(251, 191, 36, var(--tw-ring-opacity));
+  border-radius: 10px;
+  background-color: #FDB815;
+}
+
+.btn-table-add .label {
+  border: 2px solid #FDB815;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-right: 3rem;
+}
+
+.btn-table-add .label:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn-table-add .label{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: auto;
+}
+
+.btn-table-add .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0 10px 10px 0;
+  background-color: black;
+}
+
+.btn-table-add .icon svg {
+  width: 70%;
+}
+
+.btn-search-date-range {
+  --tw-bg-opacity: 1;
+  background-color: rgba(23, 23, 23, var(--tw-bg-opacity));
+}
+
+.btn-search-date-range:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(64, 64, 64, var(--tw-bg-opacity));
+}
+
+.btn-search-date-range{
+  border-radius: 0.5rem;
+}
+
+.btn-search-date-range:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn-search-date-range{
+  padding: 0.5rem;
+}
+
+.btn-search-date-range:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.btn-search-date-range{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(115, 115, 115, var(--tw-ring-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.cta-edit-table:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(38, 38, 38, var(--tw-bg-opacity));
+}
+
+.cta-edit-table{
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  padding: 0.25rem;
+}
+
+.cta-edit-table:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.cta-edit-table{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(163, 163, 163, var(--tw-ring-opacity));
+  width: 2.5rem;
+  background-color: black;
+  color: white;
+}
+
+.cta-edit-table img {
+  width: 60%;
+}
+
+.cta-delete-table:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(244, 63, 94, var(--tw-bg-opacity));
+}
+
+.cta-delete-table{
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  padding: 0.25rem;
+}
+
+.cta-delete-table:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.cta-delete-table{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(253, 164, 175, var(--tw-ring-opacity));
+  width: 2.5rem;
+  background-color: #E8264F;
+  color: white;
+}
+
+.cta-delete-table img {
+  width: 60%;
+}
+
+.input-group-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.input-group-button .form-search-table {
+  border: 2px solid #FDB815;
+  border-radius: 10px;
+}
+
+.input-group-button .form-search-table:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-group-button .form-search-table{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 24rem;
+}
+
+.input-group-button .btn-search-table:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
+}
+
+.input-group-button .btn-search-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group-button .btn-search-table:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-group-button .btn-search-table{
+  padding: 0.75rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0 10px 10px 0;
+  background-color: #FDB815;
+}
+
+.input-group-button .btn-search-table svg {
+  width: 70%;
+}
+
+.input-search {
+  border: 2px solid #FDB815;
+  border-radius: 10px;
+}
+
+.input-search:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-search{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 15rem;
+}
+
+.form-group-1 {
+  width: 100%;
+}
+
+.form-group-1 .input-group-1 input[type=text].form-control, .form-group-1 .input-group-1 input[type=number].form-control, .form-group-1 .input-group-1 input[type=password].form-control, .form-group-1 .input-group-1 input[type=email].form-control, .form-group-1 .input-group-1 input[type=date].form-control, .form-group-1 .input-group-1 input[type=file].form-control, .form-group-1 .input-group-1 input[type=datetime-local].form-control, .form-group-1 .input-group-1 textarea.form-control, .form-group-1 .input-group-1 select.form-control{
+  border-radius: 0.5rem;
+  border-width: 2px;
+  font-weight: 500;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: 100%;
+}
+
+.form-group-1 .input-group-1 input[type=text].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=number].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=password].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=email].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=date].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=file].form-control::-moz-placeholder, .form-group-1 .input-group-1 input[type=datetime-local].form-control::-moz-placeholder, .form-group-1 .input-group-1 textarea.form-control::-moz-placeholder, .form-group-1 .input-group-1 select.form-control::-moz-placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-1 .input-group-1 input[type=text].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=number].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=password].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=email].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=date].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=file].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 input[type=datetime-local].form-control:-ms-input-placeholder, .form-group-1 .input-group-1 textarea.form-control:-ms-input-placeholder, .form-group-1 .input-group-1 select.form-control:-ms-input-placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-1 .input-group-1 input[type=text].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=number].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=password].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=email].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=date].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=file].form-control::placeholder,
+.form-group-1 .input-group-1 input[type=datetime-local].form-control::placeholder,
+.form-group-1 .input-group-1 textarea.form-control::placeholder,
+.form-group-1 .input-group-1 select.form-control::placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-1 .input-group-1 input[type=text].error-state, .form-group-1 .input-group-1 input[type=number].error-state, .form-group-1 .input-group-1 input[type=password].error-state, .form-group-1 .input-group-1 input[type=email].error-state, .form-group-1 .input-group-1 input[type=date].error-state, .form-group-1 .input-group-1 input[type=file].error-state, .form-group-1 .input-group-1 input[type=datetime-local].error-state, .form-group-1 .input-group-1 textarea.error-state, .form-group-1 .input-group-1 select.error-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
+}
+
+.form-group-1 .input-group-1 input[type=text].success-state, .form-group-1 .input-group-1 input[type=number].success-state, .form-group-1 .input-group-1 input[type=password].success-state, .form-group-1 .input-group-1 input[type=email].success-state, .form-group-1 .input-group-1 input[type=date].success-state, .form-group-1 .input-group-1 input[type=file].success-state, .form-group-1 .input-group-1 input[type=datetime-local].success-state, .form-group-1 .input-group-1 textarea.success-state, .form-group-1 .input-group-1 select.success-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(134, 239, 172, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(22, 163, 74, var(--tw-border-opacity));
+}
+
+.form-group-1 .input-group-1 input[type=text].active, .form-group-1 .input-group-1 input[type=number].active, .form-group-1 .input-group-1 input[type=password].active, .form-group-1 .input-group-1 input[type=email].active, .form-group-1 .input-group-1 input[type=date].active, .form-group-1 .input-group-1 input[type=file].active, .form-group-1 .input-group-1 input[type=datetime-local].active, .form-group-1 .input-group-1 textarea.active, .form-group-1 .input-group-1 select.active{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(252, 211, 77, var(--tw-border-opacity));
+}
+
+.form-group-1 .input-group-1 input[type=text].active:focus, .form-group-1 .input-group-1 input[type=number].active:focus, .form-group-1 .input-group-1 input[type=password].active:focus, .form-group-1 .input-group-1 input[type=email].active:focus, .form-group-1 .input-group-1 input[type=date].active:focus, .form-group-1 .input-group-1 input[type=file].active:focus, .form-group-1 .input-group-1 input[type=datetime-local].active:focus, .form-group-1 .input-group-1 textarea.active:focus, .form-group-1 .input-group-1 select.active:focus{
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-group-1 .input-group-1 input[type=text].readonly, .form-group-1 .input-group-1 input[type=number].readonly, .form-group-1 .input-group-1 input[type=password].readonly, .form-group-1 .input-group-1 input[type=email].readonly, .form-group-1 .input-group-1 input[type=date].readonly, .form-group-1 .input-group-1 input[type=file].readonly, .form-group-1 .input-group-1 input[type=datetime-local].readonly, .form-group-1 .input-group-1 textarea.readonly, .form-group-1 .input-group-1 select.readonly{
+  --tw-bg-opacity: 1;
+  background-color: rgba(163, 163, 163, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(163, 163, 163, var(--tw-border-opacity));
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.form-group-1 .input-group-1 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Remove default arrow */
+}
+
+.form-group-1 .input-group-1 .input-append {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+}
+
+.form-group-1 .input-group-1 .input-append svg {
+  width: 70%;
+}
+
+.form-group-2 {
+  width: 100%;
+}
+
+.form-group-2 .input-group-2 input[type=text].form-control, .form-group-2 .input-group-2 input[type=number].form-control, .form-group-2 .input-group-2 input[type=password].form-control, .form-group-2 .input-group-2 input[type=email].form-control, .form-group-2 .input-group-2 input[type=file].form-control, .form-group-2 .input-group-2 input[type=datetime-local].form-control, .form-group-2 .input-group-2 textarea.form-control, .form-group-2 .input-group-2 select.form-control{
+  border-radius: 0.5rem;
+  border-width: 2px;
+  font-weight: 500;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: 100%;
+}
+
+.form-group-2 .input-group-2 input[type=text].form-control::-moz-placeholder, .form-group-2 .input-group-2 input[type=number].form-control::-moz-placeholder, .form-group-2 .input-group-2 input[type=password].form-control::-moz-placeholder, .form-group-2 .input-group-2 input[type=email].form-control::-moz-placeholder, .form-group-2 .input-group-2 input[type=file].form-control::-moz-placeholder, .form-group-2 .input-group-2 input[type=datetime-local].form-control::-moz-placeholder, .form-group-2 .input-group-2 textarea.form-control::-moz-placeholder, .form-group-2 .input-group-2 select.form-control::-moz-placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-2 .input-group-2 input[type=text].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 input[type=number].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 input[type=password].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 input[type=email].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 input[type=file].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 input[type=datetime-local].form-control:-ms-input-placeholder, .form-group-2 .input-group-2 textarea.form-control:-ms-input-placeholder, .form-group-2 .input-group-2 select.form-control:-ms-input-placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-2 .input-group-2 input[type=text].form-control::placeholder,
+.form-group-2 .input-group-2 input[type=number].form-control::placeholder,
+.form-group-2 .input-group-2 input[type=password].form-control::placeholder,
+.form-group-2 .input-group-2 input[type=email].form-control::placeholder,
+.form-group-2 .input-group-2 input[type=file].form-control::placeholder,
+.form-group-2 .input-group-2 input[type=datetime-local].form-control::placeholder,
+.form-group-2 .input-group-2 textarea.form-control::placeholder,
+.form-group-2 .input-group-2 select.form-control::placeholder {
+  font-weight: medium;
+  color: #2c2c2c;
+}
+
+.form-group-2 .input-group-2 input[type=text].error-state, .form-group-2 .input-group-2 input[type=number].error-state, .form-group-2 .input-group-2 input[type=password].error-state, .form-group-2 .input-group-2 input[type=email].error-state, .form-group-2 .input-group-2 input[type=file].error-state, .form-group-2 .input-group-2 input[type=datetime-local].error-state, .form-group-2 .input-group-2 textarea.error-state, .form-group-2 .input-group-2 select.error-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
+}
+
+.form-group-2 .input-group-2 input[type=text].success-state, .form-group-2 .input-group-2 input[type=number].success-state, .form-group-2 .input-group-2 input[type=password].success-state, .form-group-2 .input-group-2 input[type=email].success-state, .form-group-2 .input-group-2 input[type=file].success-state, .form-group-2 .input-group-2 input[type=datetime-local].success-state, .form-group-2 .input-group-2 textarea.success-state, .form-group-2 .input-group-2 select.success-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(134, 239, 172, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(22, 163, 74, var(--tw-border-opacity));
+}
+
+.form-group-2 .input-group-2 input[type=text].active, .form-group-2 .input-group-2 input[type=number].active, .form-group-2 .input-group-2 input[type=password].active, .form-group-2 .input-group-2 input[type=email].active, .form-group-2 .input-group-2 input[type=file].active, .form-group-2 .input-group-2 input[type=datetime-local].active, .form-group-2 .input-group-2 textarea.active, .form-group-2 .input-group-2 select.active{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(252, 211, 77, var(--tw-border-opacity));
+}
+
+.form-group-2 .input-group-2 input[type=text].active:focus, .form-group-2 .input-group-2 input[type=number].active:focus, .form-group-2 .input-group-2 input[type=password].active:focus, .form-group-2 .input-group-2 input[type=email].active:focus, .form-group-2 .input-group-2 input[type=file].active:focus, .form-group-2 .input-group-2 input[type=datetime-local].active:focus, .form-group-2 .input-group-2 textarea.active:focus, .form-group-2 .input-group-2 select.active:focus{
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-group-2 .input-group-2 input[type=text].readonly, .form-group-2 .input-group-2 input[type=number].readonly, .form-group-2 .input-group-2 input[type=password].readonly, .form-group-2 .input-group-2 input[type=email].readonly, .form-group-2 .input-group-2 input[type=file].readonly, .form-group-2 .input-group-2 input[type=datetime-local].readonly, .form-group-2 .input-group-2 textarea.readonly, .form-group-2 .input-group-2 select.readonly{
+  --tw-bg-opacity: 1;
+  background-color: rgba(163, 163, 163, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(163, 163, 163, var(--tw-border-opacity));
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.form-group-2 .input-group-2 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Remove default arrow */
+}
+
+.form-group-2 .input-group-2 .input-append {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251, 191, 36, var(--tw-bg-opacity));
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+}
+
+.form-group-2 .input-group-2 .input-append svg {
+  width: 70%;
+}
+
+input:checked + svg {
+  display: block;
+}
+
+input[type=radio] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #FDB815;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+input[type=radio]:hover {
+  cursor: pointer;
+}
+
+/* appearance for checked radiobutton */
+
+input[type=radio]:checked {
+  background-color: #FDB815;
+}
+
+.navbar-dashboard {
+  width: 100%;
+  height: 80px;
+  background-color: #171717;
+}
+
+.navbar-dashboard .timestamp {
+  background-color: #020202;
+  color: #FDB815;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.navbar-dashboard .weather-information marquee {
+  background-color: #171717;
+}
+
+.navbar-dashboard .weather-information marquee ul {
+  list-style-type: none;
+}
+
+.navbar-dashboard .weather-information marquee ul li {
+  font-size: 24px;
+  color: #FDB815;
+  font-weight: 600;
+}
+
+.navbar-dashboard .logo {
+  border-radius: 0 0 0 70px;
+  width: 527px;
+  background-color: #FDB815;
+}
+
+.content .card header .title {
+  background-color: #FDB815;
+}
+
+.content .card header .actions {
+  background-color: #171717;
+  color: #FDB815;
+}
+
+.content .card .card-content {
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-left-width: 3px;
+  border-color: #FDB815;
+}
+
+.content .card .card-content ul marquee {
+  height: 205px;
+}
+
+.content .card .card-content ul marquee li {
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.content .card .card-content ul marquee li a img {
+  max-width: 20px;
+}
+
+.content .card .card-content ul marquee li a span {
+  color: #171717;
+}
+
+.content .card .card-content ul marquee li:nth-child(even) {
+  background-color: #E9EDF2;
+  color: #171717;
+}
+
+.content .card .card-content ul marquee li:hover {
+  background-color: #171717;
+  transition: 0.2s ease-in;
+  font-weight: 500;
+}
+
+.content .card .card-content ul marquee li:hover a img {
+  fill: #fff;
+  color: #F6F6F6;
+  max-width: 30px;
+}
+
+.content .card .card-content ul marquee li:hover a span {
+  color: #F6F6F6;
+}
+
+.table {
+  width: 100%;
+}
+
+.table thead {
+  background-color: #FDB815;
+  border-radius: 30px !important;
+}
+
+.table thead tr th {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table thead tr th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.table thead tr th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.table tbody tr td {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table tbody tr td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.table tbody tr td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.table tbody tr:hover {
+  background-color: #E9EDF2;
+}
+
+.table-infografis {
+  width: 100%;
+}
+
+.table-infografis thead {
+  background-color: #FDB815;
+  border-radius: 30px !important;
+}
+
+.table-infografis thead tr th {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table-infografis thead tr th:first-child {
+  border-radius: 10px 0 0 0;
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-left-width: 1px;
+}
+
+.table-infografis thead tr th:last-child {
+  border-radius: 0 10px 0 0;
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-right-width: 1px;
+}
+
+.table-infografis tbody tr {
+  --tw-border-opacity: 1;
+  border-color: rgba(253, 230, 138, var(--tw-border-opacity));
+  border-bottom-width: 2px;
+}
+
+.table-infografis tbody tr td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table-infografis tbody tr td:first-child {
+  --tw-border-opacity: 1;
+  border-color: rgba(252, 211, 77, var(--tw-border-opacity));
+  border-left-width: 1px;
+}
+
+.table-infografis tbody tr td:last-child {
+  --tw-border-opacity: 1;
+  border-color: rgba(252, 211, 77, var(--tw-border-opacity));
+  border-right-width: 1px;
+}
+
+.table-infografis tbody tr:hover {
+  background-color: #E9EDF2;
+}
+
+.table-infografis tfoot {
+  background-color: #FDB815;
+}
+
+.table-infografis tfoot tr td {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+
+.dataTables_wrapper {
+  width: 100%;
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: right !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left !important;
+  margin-bottom: 20px !important;
+}
+
+.dataTables_wrapper .dataTables_filter label input[type=search]:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.dataTables_wrapper .dataTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.dataTables_wrapper .dataTable thead {
+  background-color: #FDB815;
+  border-color: transparent;
+}
+
+.dataTables_wrapper .dataTable thead tr {
+  text-align: left;
+}
+
+.dataTables_wrapper .dataTable thead tr th {
+  border-color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dataTables_wrapper .dataTable thead tr th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.dataTables_wrapper .dataTable thead tr th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.dataTables_wrapper .dataTable tbody tr {
+  text-align: left;
+}
+
+.dataTables_wrapper .dataTable tbody tr:hover {
+  background-color: #f1f1f1;
+  transition-duration: 75ms;
+}
+
+.dataTables_wrapper .dataTable tbody tr td {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: orange !important;
+  font-weight: bold !important;
+  border: 1px solid #FDB815 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-color: white !important;
+  border: 1px solid #d4d4d4 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #ffae00 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #FDB815 !important;
+}
+
+.wrapper {
+  background-color: #FDB815;
+}
+
+.wrapper .hero-login {
+  background-position: 100% 70%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.wrapper .forms {
+  background-color: #FDB815;
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].form-control::-moz-placeholder, .wrapper .forms .card-auth .body .form-group .input-group input[type=password].form-control::-moz-placeholder {
+  font-weight: bold;
+  color: #171717;
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].form-control:-ms-input-placeholder, .wrapper .forms .card-auth .body .form-group .input-group input[type=password].form-control:-ms-input-placeholder {
+  font-weight: bold;
+  color: #171717;
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].form-control::placeholder,
+.wrapper .forms .card-auth .body .form-group .input-group input[type=password].form-control::placeholder {
+  font-weight: bold;
+  color: #171717;
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].error-state, .wrapper .forms .card-auth .body .form-group .input-group input[type=password].error-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].success-state, .wrapper .forms .card-auth .body .form-group .input-group input[type=password].success-state{
+  --tw-bg-opacity: 1;
+  background-color: rgba(134, 239, 172, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(22, 163, 74, var(--tw-border-opacity));
+}
+
+.wrapper .forms .card-auth .body .form-group .input-group input[type=text].active, .wrapper .forms .card-auth .body .form-group .input-group input[type=password].active{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(163, 163, 163, var(--tw-border-opacity));
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox {
+  display: grid;
+  grid-template-columns: -webkit-min-content auto;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+  font-size: 1.5rem;
+  color: var(--color);
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox .radio__label {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+@media (min-width: 1024px){
+  .wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox .radio__label{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox--disabled {
+  color: var(--disabled);
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__control {
+  display: inline-grid;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25em;
+  border: 0.1em solid currentColor;
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__control svg {
+  transition: transform 0.1s ease-in 25ms;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__input {
+  display: grid;
+  grid-template-areas: "checkbox";
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__input > * {
+  grid-area: checkbox;
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__input input {
+  opacity: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__input input:checked + .checkbox__control svg {
+  transform: scale(1);
+}
+
+.wrapper .forms .card-auth .body .form-group .form-custom-checkbox .checkbox__input input:disabled + .checkbox__control {
+  color: var(--disabled);
+}
+
+.wrapper .forms .card-auth .modal {
+  transition: opacity 0.25s ease;
+}
+
+.wrapper .forms .card-auth .modal .modal-container {
+  background-color: #FDB815;
+}
+
+.wrapper .forms .card-auth body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+
+* {
+  text-transform: capitalize;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  background-color: #E9EDF2;
+}
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+
+.pagination {
+  display: block;
+  display: flex;
+}
+
+.pagination li a {
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 200ms;
+  border: 1px solid #cecece;
+  background-color: #ffffff;
+  color: #936B52;
+}
+
+.pagination li a:hover {
+  background-color: #FDB815;
+}
+
+.pagination li a.active {
+  font-weight: bold;
+  color: black;
+  background-color: #FDB815;
+}
+
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+
+.dropdown-notif {
+  overflow-y: hidden;
+  background-color: #fff !important;
+  background-color: #FDB815;
+}
+
+.dropdown-notif:hover {
+  overflow-y: auto;
+}
+
+.dropdown-notif::-webkit-scrollbar {
+  width: 12px;
+}
+
+.dropdown-notif::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.dropdown-notif::-webkit-scrollbar-thumb {
+  background-color: #ffa600;
+  border-radius: 25px;
+}
+
+.wrapper-admin .sidebar {
+  background-color: #FDB815;
+}
+
+.wrapper-admin .sidebar nav {
+  overflow-y: hidden;
+  background-color: #FDB815;
+}
+
+.wrapper-admin .sidebar nav:hover {
+  overflow-y: auto;
+}
+
+.wrapper-admin .sidebar nav::-webkit-scrollbar {
+  width: 12px;
+}
+
+.wrapper-admin .sidebar nav::-webkit-scrollbar-track {
+  background-color: #FDB815;
+}
+
+.wrapper-admin .sidebar nav::-webkit-scrollbar-thumb {
+  background-color: #ffa600;
+  border-radius: 25px;
+}
+
+.wrapper-admin .sidebar nav .sidebar-logo {
+  background-color: #FDB815;
+}
+
+.wrapper-admin .sidebar nav .sidebar-menu {
+  background-color: #FDB815;
+}
+
+.wrapper-admin .sidebar nav .sidebar-menu a.active-menu {
+  --tw-bg-opacity: 1;
+  background-color: rgba(23, 23, 23, var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.25;
+}
+
+.wrapper-admin .sidebar nav .sidebar-menu a.active-menu .label-sidebar {
+  font-weight: 700;
+}
+
+.wrapper-admin .sidebar nav .sidebar-footer {
+  background-color: #ffa600;
+}
+
+.wrapper-admin .content {
+  background-color: #E9EDF2;
+}
+
+.wrapper-admin .content .topbar {
+  background-color: #E9EDF2;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+.body-chat {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

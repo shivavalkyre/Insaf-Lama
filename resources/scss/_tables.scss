@@ -1,0 +1,174 @@
+.table {
+    width: 100%;
+    thead {
+        background-color: $color-1;
+        border-radius: 30px !important;
+        tr {
+            th{
+                @apply py-3 px-4;
+                &:first-child {
+                    border-radius: 10px 0 0 10px;
+                }
+                &:last-child {
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+        }
+    }
+    tbody {
+        tr { 
+            td {
+                @apply py-2 px-4;
+                &:first-child {
+                    border-radius: 10px 0 0 10px;
+                }
+                &:last-child {
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+            &:hover {
+                background-color: $color-4;
+            }
+        }
+    }
+}
+
+.table-infografis {
+    width: 100%;
+    thead {
+        background-color: $color-1;
+        border-radius: 30px !important;
+        tr {
+            th{
+                @apply py-3 px-4;
+                &:first-child {
+                    border-radius: 10px 0 0 0;
+                    @apply border-l border-white;
+                }
+                &:last-child {
+                    border-radius: 0 10px 0 0;
+                    @apply border-r border-white;
+                }
+            }
+        }
+    }
+    tbody {
+        tr { 
+            @apply border-b-2 border-yellow-200;
+            td {
+                @apply py-3 px-4;
+                &:first-child {
+                    @apply border-l border-yellow-300;
+                }
+                &:last-child {
+                    @apply border-r border-yellow-300;
+                }
+            }
+            &:hover {
+                background-color: $color-4;
+            }
+        }
+    }
+    tfoot {
+        background-color: $color-1;
+        tr { 
+            td {
+                @apply rounded-b-md border-l border-r border-white;
+            }
+        }
+    }
+}
+
+// custom datatable
+.dataTables_wrapper {
+    width: 100%;
+    .dataTables_length {
+        float: right !important;
+        label {
+            select {
+                
+            }
+        }
+    }
+    .dataTables_filter {
+        float: left !important;
+        margin-bottom: 20px !important;
+        label {
+            input[type=search] {
+                @apply focus:outline-none;
+            }
+        }
+    }
+    .dataTable {
+        border-collapse: collapse;
+        border-spacing: 0;
+        thead {
+            background-color: $color-1;
+            border-color: transparent;
+            tr {
+                text-align: left;
+                th{
+                    border-color: white;
+                    @apply py-3 px-4;
+                    &:first-child {
+                        border-radius: 10px 0 0 10px;
+                    }
+                    &:last-child {
+                        border-radius: 0 10px 10px 0;
+                    }
+                }
+                &.sorting {
+                    &.sorting_asc {
+        
+                    }
+                    &.sorting_desc {
+        
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                text-align: left;
+                &:hover {
+                    background-color: #f1f1f1;
+                    @apply duration-75;
+                }
+                // &.odd {
+                //     border-bottom: 1px solid #d4d4d4;
+                // }
+                // &.even {
+                //     border-bottom: 1px solid #d4d4d4;
+                // }
+                td {
+                    border-bottom: 1px solid #d4d4d4;
+                }
+            }            
+        }
+    }
+    .dataTables_info {
+        
+    }
+    .dataTables_paginate {
+        .paginate_button.current {
+            background: orange !important;
+            font-weight: bold !important;
+            border: 1px solid $color-1 !important;
+        }
+        
+        .paginate_button {
+            background-color:white !important;
+            border: 1px solid #d4d4d4 !important;
+            margin: 0 !important;
+            border-radius: 0 !important;
+            &:hover {
+                background: #ffae00 !important;
+                // border: none !important;
+            }
+            &.current {
+                background-color: $color-1 !important;
+            }
+        }
+    }   
+}
+

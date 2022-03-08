@@ -1,0 +1,127 @@
+@import "colors";
+@import "fonts";
+@import "buttons";
+@import "forms";
+@import "alerts";
+@import "dashboard";
+@import "tables";
+@import "authentification";
+
+* {
+    text-transform: capitalize;
+}
+body {
+    @apply antialiased;
+    // font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: $color-4;
+}
+.modal {
+    transition: opacity 0.25s ease;
+    .modal-container {
+        // background-color: $color-1;
+    }
+}
+
+.pagination {
+    @apply flex block;
+    li {
+        a {
+            @apply py-2 px-4 transition duration-200 font-medium;
+            border: 1px solid rgb(206, 206, 206);
+            background-color: #ffffff;
+            color: $color-8;
+            &:hover {
+                background-color: $color-1;
+            }
+            &.active {
+                font-weight: bold;
+                color: black;
+                background-color: $color-1;
+            }
+        }
+    }
+}
+
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
+
+.dropdown-notif {
+    overflow-y: hidden;
+    background-color: #fff !important;
+    &:hover {
+        overflow-y: auto;
+    }
+    background-color: $color-1;
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: #f0f0f0;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #ffa600;
+        border-radius: 25px;
+    }
+}
+
+.wrapper-admin {
+    // main sidebar
+    .sidebar {
+        background-color: $color-1;
+        nav {
+            overflow-y: hidden;
+            &:hover {
+                overflow-y: auto;
+            }
+            background-color: $color-1;
+            &::-webkit-scrollbar {
+                width: 12px;
+            }
+            &::-webkit-scrollbar-track {
+                background-color: $color-1;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #ffa600;
+                border-radius: 25px;
+            }
+            .sidebar-logo {
+                background-color: $color-1;
+            }
+            .sidebar-menu {
+                background-color: $color-1;
+                a {
+                    &.active-menu {
+                        @apply bg-gray-900 bg-opacity-25;
+                        .label-sidebar {
+                            @apply font-bold;
+                        }
+                    }
+                }
+            }
+            .sidebar-footer {
+                background-color: #ffa600;
+            }
+        }
+    }
+
+    // main content
+    .content {
+        background-color: $color-4;
+        .topbar {
+            background-color: $color-4;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.193);
+        }
+    }
+}
+
+
+// chat distress
+.body-chat {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
